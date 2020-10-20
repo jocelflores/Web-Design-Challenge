@@ -1,0 +1,61 @@
+img {
+    height: 300px;
+    width: 400px
+
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+      background-color: white;
+      
+}
+
+p {
+    color: grey; 
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.p2 {
+    color: black; 
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.display-4 {
+
+    color: #6fad9e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight : bold;
+}
+
+.h2 {
+    color: #40b195;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #6fad9e;
+    text-decoration: white;
+}
+
+.nav {
+
+    color:white
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
