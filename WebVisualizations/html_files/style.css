@@ -8,8 +8,10 @@ body {
     background-color: lightgrey;
 }
 
-.container {
+.container1 {
       background-color: white;
+      margin-right: 10px;
+      margin-left: auto;
       
 }
 
@@ -29,6 +31,7 @@ p {
 
     color: #6fad9e;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
     font-weight : bold;
 }
 
@@ -41,15 +44,22 @@ p {
 }
 
 .navbar-brand {
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: #6fad9e;
-    text-decoration: white;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.nav {
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
-    color:white
+.nav-link{
+    color: grey !important;
 }
 
 .img2 {
@@ -58,4 +68,26 @@ p {
     margin-right: auto;
   }
 
+  .img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+  }
 
+  .container2 {
+    margin-right: auto;
+    margin-left: 20px;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    display: block;  
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
