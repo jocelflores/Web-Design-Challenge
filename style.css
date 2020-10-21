@@ -1,0 +1,93 @@
+img {
+    height: 300px;
+    width: 400px
+
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container1 {
+      background-color: white;
+      margin-right: 10px;
+      margin-left: auto;
+      
+}
+
+p {
+    color: grey; 
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.p2 {
+    color: black; 
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.display-4 {
+
+    color: #6fad9e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight : bold;
+}
+
+.h2 {
+    color: #40b195;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight : bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #6fad9e;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link{
+    color: grey !important;
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+  }
+
+  .container2 {
+    margin-right: auto;
+    margin-left: 20px;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    display: block;  
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
