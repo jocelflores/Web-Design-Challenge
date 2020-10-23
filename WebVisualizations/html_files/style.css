@@ -12,6 +12,7 @@ body {
       background-color: white;
       margin-right: 10px;
       margin-left: auto;
+      height: fit-content;
       
 }
 
@@ -29,25 +30,28 @@ p {
 
 .display-4 {
 
-    color: #6fad9e;
+    color: darkcyan;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
     font-weight : bold;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 .h2 {
-    color: #40b195;
+    color: darkcyan;
     font-family: 'Times New Roman', Times, serif;
     font-weight : bold;
     font-size: x-large;
     text-align: center;
+
 }
 
 .navbar-brand {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: #6fad9e;
+    background-color: darkcyan;
     padding: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -66,6 +70,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 90%;
+    width: 90%;
   }
 
   .img3 {
@@ -74,6 +80,15 @@ p {
     margin-right: auto;
     height: 40%;
     width: 40%;
+    margin-bottom: 10px;
+  }
+
+  .img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 80%;
   }
 
   .container2 {
@@ -91,3 +106,33 @@ p {
     margin-right: auto;
  
 }
+
+.section-head{
+    min-height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.imgcenter{ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 60%;
+}
+
+.specifictext {
+        color: rgb(160, 159, 159); 
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 600;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+}
+
+.hoverable {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
